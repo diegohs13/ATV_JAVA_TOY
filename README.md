@@ -1,5 +1,4 @@
 # Easy Tech
-Nossa plataforma será uma ferramenta multifuncional, abordando não apenas a identificação de pontos de poluição, mas também incluindo recursos de conscientização pública e denúncia de incidentes. Através de gráficos e mapas interativos, os usuários poderão visualizar claramente as áreas mais afetadas pela poluição, incentivando ações proativas para limpeza e prevenção.
 ## Integrantes
 
 - MATHEUS MATOS - RM:99792
@@ -12,10 +11,11 @@ Nossa plataforma será uma ferramenta multifuncional, abordando não apenas a id
 
 ### Configuração do Spring
 - site: https://start.spring.io/
-  ![Configuração Spring](https://github.com/diegohs13/GS_JAVA/blob/main/configSpringGs.png)
+  ![Configuração Spring](https://github.com/diegohs13/ATV_JAVA_TOY/blob/main/configSpring.png)
+### Configuração do Spring
+![application.properties](https://github.com/diegohs13/ATV_JAVA_TOY/blob/main/applicationProperties.png)
 ### Execução
-![Execução](https://github.com/diegohs13/GS_JAVA/blob/main/runGs.png)
-![Execução completa](https://github.com/diegohs13/GS_JAVA/blob/main/runGs2.png)
+![Execução](https://github.com/diegohs13/ATV_JAVA_TOY/blob/main/Application.png)
 
 ### Utilização
 O usuario pode cadastrar os seguintes dados no sistema utilizando o metodo POST:
