@@ -53,6 +53,8 @@ O usuario pode atualizar os seguintes dados no sistema utilizando o metodo PUT:
 
 
 ## Endpoints
+
+https://atv-java-toy.onrender.com
 BRINQUEDO
 - GET `/brinquedo` - Retorna a lista de brinquedo cadastrados no sistema.
 - POST `/brinquedo` - Cadastra um novo brinquedo no sistema.
@@ -60,21 +62,21 @@ BRINQUEDO
 - PUT `/brinquedo/{id}/atualizarPreco` - Atualiza o preco de um brinquedo específico.
 - DELETE `/brinquedo/{id}` - Deleta um brinquedo específico.
 
-RELATORIOS
+CLASSIFICACAO
 - GET `/classificacao` - Retorna a lista de classificacao no sistema.
 - GET `/classificacao/{id}` - Retorna os dados de um classificacao específico.
 - PUT `/classificacao/{id}/atualizarNome` - Atualiza nome de uma classificacao específico.
 - DELETE `/classificacao/{id}` - Deleta um classificacao específico.
 - POST `/classificacao` - Cadastra uma nova classificacao no sistema.
 
-LOCALIDADES
+CLIENTE
 - GET `/cliente` - Retorna a lista de cliente cadastradas no sistema.
 - GET `/cliente/{id}` - Retorna os dados de um cliente específica.
 - PUT `/cliente/{id}/atualizarTelefone` - Atualiza o telefone de um cliente específica.
 - DELETE `/cliente/{id}` - Deleta um cliente específica.
 - POST `/cliente` - Cadastra uma nov cliente no sistema.
 
-INTERVENCOES
+MARCA
 - GET `/marca` - Retorna a lista de marca cadastradas no sistema.
 - GET `/marca/{id}` - Retorna os dados de uma marca específica.
 - PUT `/marca/{id}/atualizarNome` - Atualiza o nome de uma marca específica.
@@ -82,7 +84,7 @@ INTERVENCOES
 - POST `/marca` - Cadastra uma nova marca no sistema.
 
 
-DENUNCIAS
+PEDIDO
 - GET `/pedido` - Retorna a lista de pedido cadastradas no sistema.
 - GET `/pedido/{id}` - Retorna os dados de uma pedido específica.
 - PUT `/pedido/{id}/atualizarStatus` - Atualiza status de um pedido específica.
@@ -90,7 +92,7 @@ DENUNCIAS
 - POST `/pedido` - Cadastra uma nova pedido no sistema.
 
 
-CONSCIENTIZACOES
+TIPO
 - GET `/tipo` - Retorna a lista de tipo cadastrados no sistema.
 - GET `/tipo/{id}` - Retorna os dados de um tipo específico.
 - PUT `/tipo/{id}/atualizarNome` - Atualiza o nome de um tipo específico.
