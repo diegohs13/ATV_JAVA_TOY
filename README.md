@@ -55,6 +55,7 @@ O usuario pode atualizar os seguintes dados no sistema utilizando o metodo PUT:
 ## Endpoints
 
 https://atv-java-toy.onrender.com
+<br>
 BRINQUEDO
 - GET `/brinquedo` - Retorna a lista de brinquedo cadastrados no sistema.
 - POST `/brinquedo` - Cadastra um novo brinquedo no sistema.
