@@ -8,7 +8,7 @@ public class LojaDeBrinquedosApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LojaDeBrinquedosApplication.class, args);
-		System.out.println("Spring boot rodando na porta 8080");
+		System.out.println("Spring boot rodando");
 	}
 
 }

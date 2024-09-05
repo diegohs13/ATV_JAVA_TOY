@@ -52,54 +52,10 @@ O usuario pode atualizar os seguintes dados no sistema utilizando o metodo PUT:
 - Nome da tipo
 
 
-## Endpoints
+## Endpoint
 
-https://atv-java-toy.onrender.com
+https://atv-java-toy.onrender.com/brinquedo
 <br>
-BRINQUEDO
-- GET `/brinquedo` - Retorna a lista de brinquedo cadastrados no sistema.
-- POST `/brinquedo` - Cadastra um novo brinquedo no sistema.
-- GET `/brinquedo/{id}` - Retorna os dados de um brinquedo específico.
-- PUT `/brinquedo/{id}/atualizarPreco` - Atualiza o preco de um brinquedo específico.
-- DELETE `/brinquedo/{id}` - Deleta um brinquedo específico.
-
-CLASSIFICACAO
-- GET `/classificacao` - Retorna a lista de classificacao no sistema.
-- GET `/classificacao/{id}` - Retorna os dados de um classificacao específico.
-- PUT `/classificacao/{id}/atualizarNome` - Atualiza nome de uma classificacao específico.
-- DELETE `/classificacao/{id}` - Deleta um classificacao específico.
-- POST `/classificacao` - Cadastra uma nova classificacao no sistema.
-
-CLIENTE
-- GET `/cliente` - Retorna a lista de cliente cadastradas no sistema.
-- GET `/cliente/{id}` - Retorna os dados de um cliente específica.
-- PUT `/cliente/{id}/atualizarTelefone` - Atualiza o telefone de um cliente específica.
-- DELETE `/cliente/{id}` - Deleta um cliente específica.
-- POST `/cliente` - Cadastra uma nov cliente no sistema.
-
-MARCA
-- GET `/marca` - Retorna a lista de marca cadastradas no sistema.
-- GET `/marca/{id}` - Retorna os dados de uma marca específica.
-- PUT `/marca/{id}/atualizarNome` - Atualiza o nome de uma marca específica.
-- DELETE `/marca/{id}` - Deleta uma marca específica.
-- POST `/marca` - Cadastra uma nova marca no sistema.
-
-
-PEDIDO
-- GET `/pedido` - Retorna a lista de pedido cadastradas no sistema.
-- GET `/pedido/{id}` - Retorna os dados de uma pedido específica.
-- PUT `/pedido/{id}/atualizarStatus` - Atualiza status de um pedido específica.
-- DELETE `/pedido/{id}` - Deleta uma pedido específica.
-- POST `/pedido` - Cadastra uma nova pedido no sistema.
-
-
-TIPO
-- GET `/tipo` - Retorna a lista de tipo cadastrados no sistema.
-- GET `/tipo/{id}` - Retorna os dados de um tipo específico.
-- PUT `/tipo/{id}/atualizarNome` - Atualiza o nome de um tipo específico.
-- DELETE `/tipo/{id}` - Deleta um tipo específico.
-- POST `/tipo` - Cadastra um novo tipo no sistema.
-
 
 ## Imagens
 ![Diagrama de relacionamentos](https://github.com/diegohs13/GS_JAVA/blob/main/bdRelation.png)
